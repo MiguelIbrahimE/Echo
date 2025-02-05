@@ -39,7 +39,8 @@ services:
       context: ./fe
       dockerfile: Dockerfile
     ports:
-      - "80:80"  # <-- map host 80 -> container 80
+      - "80:80"
+      - "443:443"  # So container's port 443 is publicly accessible
     depends_on:
       - backend
     environment:
