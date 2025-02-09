@@ -1,7 +1,7 @@
 FROM node:22.13.1
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /be/src
 
 # Copy package files and install dependencies
 COPY package*.json ./
