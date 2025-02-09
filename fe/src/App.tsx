@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
-
+import '../src/global-css/navbar.css'
 /**
  * Interface to avoid using `any` for server responses.
  * Adjust fields as needed for your backend response shape.
